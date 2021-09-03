@@ -1,5 +1,5 @@
 class Board():
-    
+#Creates a 3x3 matrix of dots
     def __init__(self):
         self.board = [["."]*3 for x in range(3)]
 
